@@ -9,8 +9,10 @@
 }
 
 :root {
-    --primary-color: #22254b;
-    --secondary-color: #373b69;
+    --primary-color: #101313;
+    --secondary-color:#262a2d;
+    /* --primary-color: #22254b;
+    --secondary-color: #373b69; */
 }
 
 body {
@@ -51,18 +53,22 @@ main {
 }
 
 .movie {
-    width: 300px;
+    width: 200px;
     margin: 1rem;
     ;
     border-radius: 3px;
     box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
     background: var(--secondary-color);
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
 
 .movie img {
     width: 100%;
+}
+.movie img:hover {
+    opacity: 0.7;
 }
 
 .info {
@@ -97,8 +103,9 @@ main {
     right: 0;
     bottom: 0;
     background: #fff;
+    font-size: 1rem;
     padding: 1rem;
-    max-height: 100%;
+    max-height: 60%;
     transform: translateY(101%);
     transition: transform 0.3s ease-in;
 }
