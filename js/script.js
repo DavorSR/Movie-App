@@ -11,7 +11,10 @@ getMovies(apiUrl)
 
 function getMovies(url) {
 
-    fetch(url).then(res => res.json()).then(data => {
+    fetch(url)
+        .then(res => res.json())
+        .then(data => {
+            
         showMovies(data.results);
 
     })
@@ -20,7 +23,6 @@ function getMovies(url) {
 function showMovies(data) {
     main.innerHTML = '';
 
-    // data = JSON.parse(data);
 
     data.forEach(movie => {
 
@@ -55,3 +57,5 @@ function getRatingColor(vote) {
         return 'red';
     }
 }
+
+//////////////////////////////////////
