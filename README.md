@@ -1,4 +1,4 @@
-Simple movies data app where API provided by [TMDB](https://www.themoviedb.org/) is used to fetch: images, descriptions, name etc for every movie, movies are show by random order.
+Simple movies data app where API provided by [TMDB](https://www.themoviedb.org/) is used to fetch: images, descriptions, name, rating etc for every movie, movies are show by random order.
 
 Used JS, CSS and HTML5.
 
